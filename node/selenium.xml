@@ -3,6 +3,6 @@
   <name>Selenium Node</name>
   <description>This system run Selenium Node</description>
   <executable>java</executable>
-  <arguments>-Xrs -Xmx2048m -jar "%BASE%\..\selenium-server-standalone-3.8.0.jar" -role webdriver -hub https://%SELENIUM_HOST%/grid/register -port 5555</arguments>
+  <arguments>-Xrs -Xmx2048m -Dwebdriver.chrome.driver="%BASE%\chromedriver.exe" -Dwebdriver.ie.driver="%BASE%\IEDriverServer.exe" -Dwebdriver.ie.driver="%BASE%\IEDriverServer.exe" -Dwebdriver.gecko.driver="%BASE%\geckodriver.exe" -Dwebdriver.opera.driver="%BASE%\operadriver.exe" -Dwebdriver.edge.driver="%BASE%\MicrosoftWebDriver.exe" -jar "%BASE%\..\selenium-server-standalone-3.8.0.jar" -role webdriver -hub https://%SELENIUM_HOST%/grid/register -port 5555</arguments>
   <logmode>rotate</logmode>
 </service>
