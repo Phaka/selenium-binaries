@@ -1,0 +1,2 @@
+@echo off
+java -Xrs -Xmx2048m -Dwebdriver.chrome.driver=chromedriver.exe -Dwebdriver.ie.driver=IEDriverServer.exe -Dwebdriver.gecko.driver=geckodriver.exe -Dwebdriver.opera.driver=operadriver.exe -Dwebdriver.edge.driver=MicrosoftWebDriver.exe -jar ..\selenium-server-standalone-3.8.0.jar -role node -hub https://%SELENIUM_HOST%/grid/register -nodeConfig node.json
