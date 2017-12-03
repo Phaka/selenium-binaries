@@ -1,0 +1,60 @@
+{
+    "capabilities": [
+        {
+            "platform": "WINDOWS",
+            "browserName": "firefox",
+            "maxInstances": 1,
+            "seleniumProtocol": "WebDriver"
+        },
+        {
+            "platform": "WINDOWS",
+            "browserName": "chrome",
+            "maxInstances": 1,
+            "seleniumProtocol": "WebDriver"
+        },
+        {
+            "platform": "WINDOWS",
+            "browserName": "internet explorer",
+            "maxInstances": 1,
+            "seleniumProtocol": "WebDriver"
+        },
+        {
+            "platform": "WINDOWS",
+            "browserName": "edge",
+            "maxInstances": 1,
+            "seleniumProtocol": "WebDriver"
+        },
+        {
+            "platform": "WINDOWS",
+            "browserName": "opera",
+            "version": "11",
+            "maxInstances": 1,
+            "seleniumProtocol": "WebDriver"
+        },
+        {
+            "browserName": "operablink",
+            "platform": "WINDOWS",
+            "maxInstances": 5,
+            "seleniumProtocol": "WebDriver"
+        },
+        {
+            "browserName": "MicrosoftEdge",
+            "platform": "WIN10",
+            "maxInstances": 1,
+            "seleniumProtocol": "WebDriver"
+        }
+    ],
+    "configuration": {
+        "maxSession": 7,
+        "port": 5555,
+        "host": "127.0.0.1",
+        "register": true,
+        "registerCycle": 5000,
+        "hubPort": 4444,
+        "hubHost": "127.0.0.1",
+        "nodeTimeout": 120,
+        "nodePolling": 2000,
+        "cleanUpCycle": 2000,
+        "timeout": 30000
+    }
+}
