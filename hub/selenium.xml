@@ -1,0 +1,8 @@
+<service>
+  <id>selenium</id>
+  <name>Selenium Hub</name>
+  <description>This system run Selenium Server</description>
+  <executable>java</executable>
+  <arguments>-Xrs -Xmx2048m -jar "%BASE%\..\selenium-server-standalone-3.8.0.jar" -role hub</arguments>
+  <logmode>rotate</logmode>
+</service>
