@@ -3,6 +3,6 @@
   <name>Selenium Node</name>
   <description>This system run Selenium Node</description>
   <executable>java</executable>
-  <arguments>-Xrs -Xmx2048m -jar "%BASE%\..\selenium-server-standalone-3.8.0.jar" -role webdriver -hub https://selenium.bloudraak.net/grid/register -port 4444</arguments>
+  <arguments>-Xrs -Xmx2048m -jar "%BASE%\..\selenium-server-standalone-3.8.0.jar" -role webdriver -hub https://%SELENIUM_HOST%/grid/register -port 5555</arguments>
   <logmode>rotate</logmode>
 </service>
