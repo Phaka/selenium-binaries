@@ -3,7 +3,7 @@
   <name>Selenium Hub</name>
   <description>This system run Selenium Server</description>
   <executable>java</executable>
-  <arguments>-Xrs -Xmx2048m -jar "%BASE%\..\selenium-server-standalone-3.8.0.jar" -role hub</arguments>
+  <arguments>-Xrs -Xmx2048m -jar "%BASE%\..\selenium-server-standalone-3.8.0.jar" -role hub -hubConfig "%BASE%\hub.config"</arguments>
   <logmode>rotate</logmode>
   <serviceaccount>
     <domain>.</domain>
