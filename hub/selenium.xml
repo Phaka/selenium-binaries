@@ -5,4 +5,9 @@
   <executable>java</executable>
   <arguments>-Xrs -Xmx2048m -jar "%BASE%\..\selenium-server-standalone-3.8.0.jar" -role hub</arguments>
   <logmode>rotate</logmode>
+  <serviceaccount>
+    <user>selenium</user>
+    <password>$3leN1um</password>
+    <allowservicelogon>true</allowservicelogon>
+  </serviceaccount>
 </service>

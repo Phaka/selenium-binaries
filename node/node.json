@@ -17,13 +17,7 @@
             "browserName": "internet explorer",
             "maxInstances": 1,
             "seleniumProtocol": "WebDriver"
-        },
-        {
-            "platform": "WINDOWS",
-            "browserName": "edge",
-            "maxInstances": 1,
-            "seleniumProtocol": "WebDriver"
-        },        
+        },               
         {
             "browserName": "operablink",
             "platform": "WINDOWS",
